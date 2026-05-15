@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ATLAS.ti temporary and lock files
+*.atlproj.bak
+*.atlproj.lock
+~$*
+
+# Audio/video — never commit these (too large, sensitive)
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.wav
+*.avi
+
+# Large binary exports we don't want versioned
+*.zip
